@@ -1,0 +1,37 @@
+# 本文件不是 setup-matt-pocock-skills 技能的产物，是本机缺少 gh 时的替代清单。
+# 用途：等 gh 可用后一次性建齐 10 个标签（triage 五角色 + wayfinder 五类）。
+# 由 EndBug/label-sync 消费时无需改动；手工建标签见 docs/agents/triage-labels.md。
+
+# --- triage 五角色（docs/agents/triage-labels.md）---
+- name: "needs-triage"
+  color: "fbca04"
+  description: "Maintainer needs to evaluate this issue"
+- name: "needs-info"
+  color: "d4c5f9"
+  description: "Waiting on reporter for more information"
+- name: "ready-for-agent"
+  color: "0e8a16"
+  description: "Fully specified, ready for an AFK agent"
+- name: "ready-for-human"
+  color: "1d76db"
+  description: "Requires human implementation"
+- name: "wontfix"
+  color: "6a737d"
+  description: "Will not be actioned"
+
+# --- wayfinder 五类（/wayfinder 使用）---
+- name: "wayfinder:map"
+  color: "5319e7"
+  description: "Exploration map: a single issue holding Notes / Decisions / Fog"
+- name: "wayfinder:research"
+  color: "0052cc"
+  description: "Child ticket: gather primary-source context"
+- name: "wayfinder:prototype"
+  color: "c5def5"
+  description: "Child ticket: throwaway prototype to answer a design question"
+- name: "wayfinder:grilling"
+  color: "b60205"
+  description: "Child ticket: grill the maintainer on a decision"
+- name: "wayfinder:task"
+  color: "0e8a16"
+  description: "Child ticket: concrete implementation work"
